@@ -1,0 +1,6 @@
+## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/redirect"
+  to = "https://wa.me/message/ZCE45XLXV2VTP1"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
